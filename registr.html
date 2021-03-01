@@ -1,0 +1,100 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="Materials/CSS/Style.css" type="text/css">
+<link rel="stylesheet" href="ism/css/my-slider.css"/>
+<script src="ism/js/ism-2.2.min.js"></script>
+<script>
+function isEmail() {
+var str = document.getElementById("email").value;
+var status = document.getElementById("status");
+var re = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+if (re.test(str)) status.innerHTML = "Всё ок"
+else status.innerHTML = "неверный адрес";
+if(isEmpty(str)) status.innerHTML = "?";
+}
+function isEmpty(str){
+return (str == null) || (str.length == 0);
+}
+</script>
+<script>
+function isEmaill() {
+var str = document.getElementById("emaill").value;
+var status = document.getElementById("statuss");
+var re = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+if (re.test(str)) status.innerHTML = "Всё ок"
+else status.innerHTML = "Всё ок";
+if(isEmpty(str)) status.innerHTML = "а где?..";
+}
+function isEmpty(str){
+return (str == null) || (str.length == 0);
+}
+</script>
+<title>Регистрация</title>
+</head>
+<body>
+<div class="site-blok">
+<div class="header">
+<h1>Energy Drip Store</h1>
+<div class="menu">
+<ul>
+<li><a href="main.html">Главная</a></li>
+<li><a href="akcii.html">Акции</a></li>
+<li><a href="kontakt.html">Контакты</a></li>
+<li><a href="vhod.html">Войти</a></li>
+
+
+</ul>
+</div>
+</div>
+<div class="blok-content">
+
+<div class='container'>
+
+<p></p>
+<div class="blok-left">
+
+
+<form name="form" action="" method="post">
+
+<div class="logreg">
+<h1>Регистрация</h1>
+</div>
+<br></br>
+<p>Ваш никнейм:
+<input type="text" id="emaill"> <span id="statuss"></span></p>
+<input type="button" value="Проверить" onclick="isEmaill()">
+
+<br>
+<hr font=5 align=left color="#cbcc89">
+
+<p>Ваша почта:  
+<input type="text" id="email"> <span id="status"></span></p>
+<input type="button" value="Проверить" onclick="isEmail()">
+
+<br>
+<hr font=5 align=left color="#cbcc89">
+
+<p>Ваш пароль:  
+<input></span>
+<br></br>
+<hr font=5 align=left color="#cbcc89">
+
+<p>Ваш пол:</b>
+<p><input  name="sex" type="radio" value="P1">Мужской<br>
+<input name="sex" type="radio" value="P2">Женский<br>
+<input name="sex" type="radio" value="P2">Ламинат<br></p>
+ 
+ <button><img src="Materials\image\5.jpg" width="20" height="20" alt="Создать аккаунт" 
+style="vertical-align: middle"> Создать аккаунт</button></p>
+ 
+<p style= "font-size:10px">Нажимая кнопку «Создать аккаунт», вы соглашаетесь с нашими <a href="uslovia.html">условиями пользования</a></p>
+
+</div>
+</div>
+<div class="footer">
+
+<p><a href="https://vk.com/scaygen44" target="_blank">Мой вк</a></p> </div>
+</div>
+</body>
+</html>

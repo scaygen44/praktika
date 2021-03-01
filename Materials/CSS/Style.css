@@ -1,0 +1,137 @@
+body
+{
+background:#010101 url(BGforSite.png) no-repeat center top;
+font:14px Verdana, Arial, Helvetica, sans-serif;
+color:#ссс;
+}
+.site-blok
+{
+width:1200px; /* ширина сайта*/
+margin: 0 auto; /* выравниваем сайт по сентру*/
+}
+.header h1
+{
+margin:80px 0;
+text-align:center;
+font:40px "Impact", Times, serif;
+color:#fff;
+text-shadow: black 0 0 1px;
+background: #cbcc89;
+box-shadow: 0 0 5px rgba(0,0,0,2);
+padding: 5px;
+}
+.header h2
+{margin:80px 0;
+text-align:center;
+font:40px "Impact", Times, serif;
+color:#fff;
+}
+.menu
+{
+height:50px;
+background:#4c4c4c;
+
+}
+.menu ul
+{
+overflow: hidden;
+background: #cbcc89;
+list-style-type: none;
+
+}
+.menu li
+{
+padding:10px;
+float:left; /* граница сайта */
+font:"Impact", Times, serif;
+}
+.menu li a
+{
+font:25px "Impact", Times, serif;
+color:#fff;
+text-decoration: none;
+text-shadow: black 0 0 1px;
+}
+.blok-content
+{
+background:#bcbd7e;
+overflow: hidden;
+padding:10px 5px 15px 5px;
+}
+.blok-left
+{
+background:#fffee3;
+width:1180px; /* ширина блока левого*/
+float:left; /* граница сайта */
+padding:5px;
+}
+.blok-right
+{
+background:#fff;
+width:200px; /* ширина блока
+правого*/ float:right; /* граница
+сайта */ padding:5px;
+-webkit-box-shadow: 0 10px 6px -6px #444343;
+-moz-box-shadow: 0 10px 6px -6px #444343;
+box-shadow: 0 10px 6px -6px #444343;
+}
+.footer
+{
+padding:10px;
+}
+.footer a
+{
+font:14px "Times New Roman", Times, serif;
+color:black;
+text-decoration: none;
+}
+
+ #zatemnenie {
+background: rgba(102, 102, 102, 0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+display: none;
+}
+#okno {
+width: 300px;
+height: 50px;
+text-align: center;
+padding: 15px;
+border: 3px solid #cbcc89;
+border-radius: 10px;
+color: #0000cc;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+background: #fff;
+}
+#zatemnenie:target {display: block;}
+.close {
+display: inline-block;
+border: 1px solid #cbcc89;
+color: #cbcc89;
+padding: 0 12px;
+margin: 10px;
+text-decoration: none;
+background: #f2f2f2;
+font-size: 14pt;
+cursor:pointer;
+}
+.close:hover {background: #e6e6ff;}
+
+.logreg {
+margin:1px 0;
+text-align:center;
+font:15px "Impact", Times, serif;
+color:#fff;
+text-shadow: black 0 0 1px;
+background: #cbcc89;
+box-shadow: 0 0 5px rgba(0,0,0,2);
+padding: 5px;
+}
