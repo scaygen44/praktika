@@ -77,13 +77,15 @@ box-shadow: 0 10px 6px -6px #444343;
 }
 .footer
 {
-padding:10px;
+padding:8px;
+text-indent: 850px
 }
 .footer a
 {
 font:14px "Times New Roman", Times, serif;
-color:black;
+color:#4c4c4c;
 text-decoration: none;
+cursor:pointer;
 }
 
  #zatemnenie {
@@ -134,4 +136,55 @@ text-shadow: black 0 0 1px;
 background: #cbcc89;
 box-shadow: 0 0 5px rgba(0,0,0,2);
 padding: 5px;
+}
+
+.market {
+border: 3px solid #cbcc89;
+}
+
+.leftimg {
+float:left;
+margin: 0px 0px 75px 0;
+}
+
+.krasstr {
+text-indent: 25px
+}
+
+.buy {
+background: #cbcc89;
+color: #f2f2f2; 
+padding: 0 12px;
+text-decoration: none;
+border-radius: 12px;
+font-size: 55pt;
+cursor:pointer;
+}
+
+.opacity {
+opacity: 0.5
+}
+
+.recom {
+text-indent: 65px
+}
+
+.sostav {
+text-indent: 1165px
+}
+
+.openm {
+margin: 10px 50px;
+   }
+.openm img {
+width: 380px;
+padding: 10px;
+transition: 0.5s;
+}
+.openm img:hover {
+transform: scale(1.1);
+}
+
+.404{
+text-align
 }
