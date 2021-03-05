@@ -23,7 +23,7 @@ transform: translate(-50%, -50%);
 position:absolute;
 bottom:16px;
 left:50px;
-transform:tanslateX(-50%);
+transform:translateX(-50%);
 display:flex;
 }
 .bar {

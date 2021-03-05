@@ -2,7 +2,6 @@ body
 {
 background:#010101 url(BGforSite.png) no-repeat center top;
 font:14px Verdana, Arial, Helvetica, sans-serif;
-color:#ссс;
 }
 .site-blok
 {
@@ -43,7 +42,6 @@ list-style-type: none;
 {
 padding:10px;
 float:left; /* граница сайта */
-font:"Impact", Times, serif;
 }
 .menu li a
 {
@@ -181,10 +179,6 @@ transition: 0.5s;
 }
 .openm img:hover {
 transform: scale(1.1);
-}
-
-.404{
-text-align
 }
 
 @media(max-width:1200px){
