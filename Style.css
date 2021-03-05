@@ -1,0 +1,278 @@
+body
+{
+background:#010101 url(BGforSite.png) no-repeat center top;
+font:14px Verdana, Arial, Helvetica, sans-serif;
+}
+.site-blok
+{
+width:1200px; /* ширина сайта*/
+margin: 0 auto; /* выравниваем сайт по сентру*/
+}
+.header h1
+{
+margin:80px 0;
+text-align:center;
+font:40px "Impact", Times, serif;
+color:#fff;
+
+background: #cbcc89;
+box-shadow: 0 0 5px rgba(0,0,0,2);
+padding: 5px;
+}
+.header h2
+{margin:80px 0;
+text-align:center;
+font:40px "Impact", Times, serif;
+color:#fff;
+}
+.menu
+{
+height:50px;
+background:#4c4c4c;
+
+}
+.menu ul
+{
+overflow: hidden;
+background: #cbcc89;
+list-style-type: none;
+
+}
+.menu li
+{
+padding:10px;
+float:left; /* граница сайта */
+}
+.menu li a
+{
+font:25px "Impact", Times, serif;
+color:#fff;
+text-decoration: none;
+text-shadow: black 0 0 1px;
+}
+.blok-content
+{
+background:#bcbd7e;
+overflow: hidden;
+padding:10px 5px;
+}
+.blok-left
+{
+background:#fffee3;
+width:1180px; /* ширина блока левого*/
+float:left; /* граница сайта */
+padding:5px;
+}
+.blok-right
+{
+background:#fff;
+width:200px; /* ширина блока правого*/ 
+float:right; /* граница сайта */
+padding:5px;
+
+}
+.footer
+{
+padding:5px;
+text-indent: 0px;
+}
+.footer a
+{
+font:14px "Times New Roman", Times, serif;
+color:#4c4c4c;
+text-decoration: none;
+cursor:pointer;
+}
+
+ #zatemnenie {
+background: rgba(102, 102, 102, 0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+display: none;
+}
+#okno {
+width: 300px;
+height: 50px;
+text-align: center;
+padding: 15px;
+border: 3px solid #cbcc89;
+border-radius: 10px;
+color: #0000cc;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+background: #fff;
+}
+#zatemnenie:target {display: block;}
+.close {
+display: inline-block;
+border: 1px solid #cbcc89;
+color: #cbcc89;
+padding: 0 12px;
+margin: 10px;
+text-decoration: none;
+background: #f2f2f2;
+font-size: 14pt;
+cursor:pointer;
+}
+.close:hover {background: #e6e6ff;}
+
+.logreg {
+margin:1px 0;
+text-align:center;
+font:15px "Impact", Times, serif;
+color:#fff;
+text-shadow: black 0 0 1px;
+background: #cbcc89;
+box-shadow: 0 0 5px rgba(0,0,0,2);
+padding: 5px;
+}
+
+.market {
+border: 3px solid #cbcc89;
+}
+
+.leftimg {
+float:left;
+margin: 0px 0px 75px 0;
+}
+
+.krasstr {
+text-indent: 25px
+}
+
+.buy {
+background: #cbcc89;
+color: #f2f2f2; 
+padding: 0 12px;
+text-decoration: none;
+border-radius: 12px;
+font-size: 55pt;
+cursor:pointer;
+}
+
+.opacity {
+opacity: 0.5
+}
+
+.recom {
+text-indent: 65px
+}
+
+.sostav {
+text-indent: 1165px
+}
+
+.openm {
+margin: 10px 50px;
+   }
+.openm img {
+width: 380px;
+padding: 10px;
+transition: 0.5s;
+}
+.openm img:hover {
+transform: scale(1.1);
+}
+
+@media(max-width:1200px){
+.blok-content{
+max-width:970px;
+}
+}
+@media(max-width:992px){
+.blok-content{
+max-width:750px;
+}
+}
+@media(max-width:767px){
+.blok-content{
+max-width:none;
+}
+}
+
+.cards_image {
+margin: 0px 0px 20px 0px;
+height:200px;
+overflow:hidden;
+}
+.cards_image img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+#foo {
+position: fixed;
+bottom: 0;
+right: 0;
+text-decoration: none;
+font:14px "Impact", Times, serif;
+color:#000;
+background:#010101 url(BGforSite.png);
+box-shadow: 0 0 5px rgba(0,0,0,2);
+border-radius: 5px;
+border: 1px solid black;
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #cbcc89;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #cbcc89;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #cbcc89;}
+
+.forF1 {
+float: left; /* Обтекание по правому краю */
+padding: 10px; /* Поля вокруг текста */
+margin-right: 20px; /* Отступ справа */
+width: 10%; /* Ширина блока */
+}
+.forF2 {
+float: right;
+padding: 30px; /* Поля вокруг текста */
+margin-right: 20px; /* Отступ справа */
+width:51%; /* Ширина блока */
+}
